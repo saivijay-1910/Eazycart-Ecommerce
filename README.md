@@ -50,7 +50,10 @@ To experience the project live, visit the hosted website on GitHub: **Eazycart**
 ## 🖼️ Project Screenshots  
 Included some screenshots here to visually represent my project.
 
+Home Page
+![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/0f5964071bc8145e2978b6b965aaff18e7984706/Screenshot_1.png)
 
+Mobile View
 
 ## ✅ Conclusion  
 **Eazycart** is a testament to the power of **thoughtful design** and **functional development**, built to offer users a smooth and immersive shopping experience. The project emphasizes the significance of **responsive design**, intuitive navigation, and seamless interaction in modern e-commerce platforms. I am always open to feedback and suggestions to continually improve and enhance this project, ensuring a superior user experience.  
