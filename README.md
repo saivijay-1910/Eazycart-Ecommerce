@@ -55,7 +55,7 @@ Home Page
 ![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/2317f811e048ea233b56d009e552528c43388b6a/Screenshot_2.png)
 ![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/2317f811e048ea233b56d009e552528c43388b6a/Screenshot_3.png)
 Contact Page
-![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/2317f811e048ea233b56d009e552528c43388b6a/Screenshot_7.png)
+![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/100569bcb3c2a5fbee3f94ab1286f9e9348c3dd8/Screenshot_7.png)
 
 Mobile View
 ![Image Alt](https://github.com/saivijay-1910/Eazycart-Ecommerce/blob/2317f811e048ea233b56d009e552528c43388b6a/Screenshot_4.png)
