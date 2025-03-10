@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazycart</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <h1>🛒Eazycart</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+        <div>
+            <h1>Upgrade your look</h1>
+            <p>with our trendsetting Collections</p>
+            <button class="header-button">Shop Now</button>
+        </div>
+        <div>
+            <img class="header-image" src="images/header.jpg" alt="Image">
+        </div>
+    </div>
+
+    <!--Service-->
+    <div class="service">
+        <div class="service1">
+            <div>
+                <h2>Experience Shopping</h2>
+                <h2>like never before</h2>
+            </div>
+            <div>
+                <p>|| We provide the Best Customer Service and Shopping Experience ||</p>
+            </div>
+        </div>
+
+        <div class="service2">
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Customer Satisfaction</h4>
+                <p>We are dedicated to delivering exceptional service and ensuring every customer leaves satisfied.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Daily New Arrivals</h4>
+                <p>Discover fresh styles every day with our latest new arrivals, handpicked just for you!</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Free Express Delivery</h4>
+                <p>Enjoy fast, hassle-free shopping with our free express delivery on all your favorite picks!</p>
+            </div>
+        </div>
+    </div>
+
+    <!--New Arrival-->
+    <div style="background-color: azure;"><h2 style="padding: 20px; margin-left: 16px;">New Arrivals</h2></div>
+    <div class="new-arrivals">
+        <div class="new-arrival">
+            <img src="images\arrival1.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival2.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival6.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival7.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+    </div>
+
+    <div style="background-color: azure;"><h2 style="padding: 20px; margin-left: 16px;">Trending Collections</h2></div>
+    <div class="new-arrivals">
+        <div class="new-arrival">
+            <img src="images\arrival3.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival4.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival5.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+        <div class="new-arrival">
+            <img src="images\arrival8.jpeg" alt="Image">
+            <button>Shop Now🏷️</button>
+        </div>
+    </div>
+
+    <!--News-->
+    <div class="news">
+        <h2>Subscribe to our News Letter</h2>
+        <p>Sign up to get exclusive discounts, updates and more...</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h1>Eazycart</h1>
+        <p>Your one-stop shopping destination for effortless browsing, great deals, and fast delivery!</p>
+        <div class="footer-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>@ 2024 Eazycart.com</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+}
+.navbar-menu-toggle{
+    display: none;
+}
+.side-navbar{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+}
+.side-navbar-link{
+    margin-bottom: 30px;
+}
+.side-navbar-links a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: azure;
+}
+.header-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.service{
+    padding: 20px;
+    background-color: blue;
+}
+.service1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.service2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.service2 div{
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;
+}
+.new-arrivals{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: azure;
+}
+.new-arrival{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrivals button{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.news input{
+    padding: 10px;
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+.news button{
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.footer-icon{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:700px){
+    .navbar-menu-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .header-image{
+        display: none;
+    }
+    .service1{
+        display: none;
+    }
+    .service2{
+        flex-direction: column;
+    }
+}
+
+
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    height: 25px;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.product-search input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: space-around;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 15%;
+}
+.product-box img{
+    border-radius: 10px;
+}
+.product-box p{
+    margin-bottom: 30px;
+}
+
+
+.contact-container{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page{
+    height: 60%;
+    width: 20%;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.contact-page input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+}
+.contact-page input::placeholder{
+    color: black;
+}
+.contact-page textarea{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+}
+.contact-page textarea::placeholder{
+    color: black;
+}
+.contact-page button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-color:white;
+}
+
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.popup-box {
+    background-color: blue;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -150px; 
+    text-align: center;
+}
+
+.popup-box p{
+    margin-top: 20px;
+    color: white;
+}
+.popup-box button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (min-width:701px){
+    .side-navbar{
+        display: none;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazycart</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <h1>🛒Eazycart</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="images\arrival1.jpeg" alt="Image">
+                <p>Women's Overcoat</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival2.jpeg" alt="Image">
+                <p>Women's Modern</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival3.jpeg" alt="Image">
+                <p>Tops</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival4.jpeg" alt="Image">
+                <p>Women's Modern</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival5.jpeg" alt="Image">
+                <p>Women's casuals</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival6.jpeg" alt="Image">
+                <p>Men's casuals</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival7.jpeg" alt="Image">
+                <p>Men's Coat</p>
+            </div>
+            <div class="product-box">
+                <img src="images\arrival8.jpeg" alt="Image">
+                <p>Men's casuals trends</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+        <h1>Eazycart</h1>
+        <p>Your one-stop shopping destination for effortless browsing, great deals, and fast delivery!</p>
+        <div class="footer-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>@ 2024 Eazycart.com</p>
+    </div>
+
+
+    <script src="collections.js"></script>
+</body>
+
+</html>
